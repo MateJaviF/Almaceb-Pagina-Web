@@ -1,0 +1,122 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#BG {
+    position: absolute;
+    background-image: url(data/BG.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    filter: brightness(5px);
+}
+#box {
+    background-color: aliceblue;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 800px;
+    height: 880px;
+    border-color: rgb(100, 148, 237);
+    border-style: solid;
+}
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.back-link {
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.back-link a {
+    color: #a30d0d;
+    border-radius: 1pc;
+}
+.back-link i {
+    margin-right: 8px;
+    font-size: 50px;
+    color: darkblue;
+}
+.back-link i:hover {
+    color: #a30d0d;
+}
+#container {
+    display: flex;
+    position: relative;
+}
+.content {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+}
+.content h1, h2 {
+    text-align: center;
+    margin: 20px;
+}
+.content button {
+    width: 180px;
+    height: 80px;
+    font-size: 120%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 7px;
+    background-color: darkblue;
+    color: rgb(100, 190, 250);
+    border-color: rgb(100, 190, 250);
+    border-radius: 10px;
+}
+.content button:hover {
+    background-color: rgb(100, 190, 250);
+    color: darkblue;
+    border-color: darkblue;
+}
+.buttons {
+    flex-direction: column;
+}
+.content div {
+    display: flex;
+}
+#other {
+    flex-direction: column;
+}
+#other h3 {
+    margin: 15px;
+    margin-left: 10%;
+}
+#other input{
+    border-color: rgba(0, 0, 0, 0.5);
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 110%;
+}
+#submit {
+    background-color: darkblue;
+    color: rgb(100, 190, 250);
+    border-color: rgb(100, 190, 250);
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 150%;
+    width: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#submit:hover {
+    background-color: rgb(100, 190, 250);
+    color: darkblue;
+    border-color: darkblue;
+}
