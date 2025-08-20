@@ -1,23 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    position: relative;
-    size: 100%;
+body {
     background-image: url(data/BG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.top{
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    height: 55%;
-    width: 28vw;
-    margin-left: 35vw;
-    border-radius: 2vw;
+#container {
+    background-color: #5a5a5a;
+}
+.box-top {
+    border-radius: 2pc;
+}
+#report-button {
+    background-color: white;
+    border-color: #5a5a5a;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 5px;
 }
 .linea{
     position: absolute;
