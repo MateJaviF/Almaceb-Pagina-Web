@@ -10,7 +10,7 @@ body {
 }
 #BG {
     position: absolute;
-    background-image: url(data/BG.jpg);
+    background-image: url(images/BG.jpg);
     height: 100%;
     width: 100%;
     background-position: center;

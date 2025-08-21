@@ -10,7 +10,7 @@ body {
 #BG {
     display: flex;
     position: absolute;
-    background-image: url(/images/BG.jpg);
+    background-image: url(images/BG.jpg);
     height: 100%;
     width: 100%;
     background-position: center;
