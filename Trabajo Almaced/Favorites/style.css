@@ -105,6 +105,11 @@ body {
     border-color: black;
     opacity: 1;
 }
+.nav-buttons a:nth-child(2) {
+    opacity: 1;
+    color: black;
+    border-color: black;
+}
 #but{
     width: 50px;
     height: 50px;
