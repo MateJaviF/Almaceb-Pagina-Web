@@ -1,0 +1,18 @@
+#info {
+    padding: 20px;
+}
+#info h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.vendedores {
+    margin-bottom: 20px;
+}
+.vendedores-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.vendedores-info img {
+    border-radius: 50%;
+}
