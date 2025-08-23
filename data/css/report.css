@@ -20,7 +20,7 @@ body {
     filter: brightness(5px);
 }
 #box {
-    background-color: aliceblue;
+    background-color: white;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -28,6 +28,7 @@ body {
     height: 880px;
     border-color: rgb(100, 148, 237);
     border-style: solid;
+    box-shadow: 0 0 16px rgba(0,0,0,0.15);
 }
 #nav-bar {
     display: flex;
@@ -40,16 +41,19 @@ body {
     align-items: center;
 }
 .back-link a {
-    color: #a30d0d;
-    border-radius: 1pc;
+    border-radius: 10px;
 }
 .back-link i {
-    margin-right: 8px;
-    font-size: 50px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+    font-size: 30px;
     color: darkblue;
 }
 .back-link i:hover {
-    color: #a30d0d;
+    opacity: 0.7;
+    border-color: rgb(100, 148, 237);
 }
 #container {
     display: flex;
@@ -66,12 +70,11 @@ body {
     margin: 20px;
 }
 .content button {
-    width: 180px;
+    width: 160px;
     height: 80px;
     font-size: 120%;
     margin-bottom: 20px;
     margin-left: 20px;
-    padding: 7px;
     background-color: darkblue;
     color: rgb(100, 190, 250);
     border-color: rgb(100, 190, 250);

@@ -12,46 +12,65 @@ body {
     display: flex;
     justify-content: center;
 }
-#BG {
-    display: flex;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
 #container {
     background-color: white;
     display: flex;
     position: relative;
     flex-direction: column;
     width: 800px;
+    margin: 24px auto;
+    border-radius: 16px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.15);
 }
 .box-top {
     border-radius: 2pc;
 }
-#report-button {
-    align-items: center;
+#navigation {
     display: flex;
-    justify-content: end;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
 }
-#report-button img {
+#navigation i {
     border-radius: 10px;
     border-width: 1px;
     border-style: solid;
-    padding: 3px;
+    padding: 5px;
+    font-size: 30px;
+    color: darkblue;
 }
-#report-button img:hover {
-    opacity: 0.8;
+#navigation i:hover {
+    opacity: 0.7;
     border-color: rgb(100, 148, 237);
 }
 #perfil{
-    width: 100px;
-    height: 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
     border-radius: 50%;
     border-color: yellowgreen;
     border-style: solid;
     border-width: 2px;
     padding: 3px;
     margin-top: 10px;
+}
+#perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#perfil a {
+    position: absolute;
+}
+#perfil i {
+    border-radius: 55%;
+    color: white;
+    font-size: 60px;
+    padding: 20px;
+    opacity: 0;
+}
+#perfil i:hover {
+    opacity: 1;
 }
 .content {
     display: flex;
@@ -120,6 +139,7 @@ body {
 }
 #dynamic-content {
     height: 1720px;
+    box-shadow: 0 0 0 rgba(0,0,0,0);
 }
 #dynamic-content h2 {
     text-align: center;
@@ -141,4 +161,95 @@ body {
     #container {
         width: auto;
     }
+}
+
+
+#box-fav h2{
+    font-size: 2em;
+    margin: 10px;
+    text-align: center;
+}
+#box-fav #image-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 10px;
+    margin: 10px;
+}
+
+
+#box-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#box-gallery h2 {
+    font-size: 2em;
+    margin: 10px;
+}
+.gallery {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.gallery img:hover {
+    opacity: 0.8;
+}
+@media (max-width: 800px) {
+    .gallery {
+        flex-direction: column;
+    }
+}
+
+
+#info {
+    padding: 20px;
+}
+#info h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.vendedores {
+    margin-bottom: 20px;
+}
+.vendedores-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.vendedores-info img {
+    border-radius: 50%;
+}
+
+
+#box-promo {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+#box-promo h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.boxes-promos {
+    display: flex;
+    background-color: aliceblue;
+    margin-bottom: 15px;
+}
+.boxes-promos img {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.boxes-promos p {
+    background-color: lightgreen;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.boxes-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
