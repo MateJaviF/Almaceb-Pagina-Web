@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/BG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    max-width: 700px;
+    margin: 24px auto;
+    border-radius: 16px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);
+    padding: 32px 24px;
+    gap: 20px;
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+#navigation i {
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+    font-size: 30px;
+    color: darkblue;
+}
+#navigation i:hover {
+    opacity: 0.7;
+    border-color: rgb(100, 148, 237);
+}
+
+.header {
+    margin-bottom: 16px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    background-color: #e74c3c;
+    color:  #fff;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+.header h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 8px 0 0 0;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: #000;
+}
+
+.business-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    flex: 1;
+}
+.business-item {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    position: relative;
+    gap: 20px;
+    padding: 10px;
+    flex: 1;
+}
+.business-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.business-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.business-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+.follow {
+    padding: 7px 15px;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: lightgreen;
+    background-color: rgb(5, 185, 5);
+    color: #fff;
+}
+
+.follow:hover {
+    background-color: lightgreen;
+    border-color: rgb(5, 185, 5);
+}
+
+.deleted {
+    padding: 7px 15px;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: #e74c3c;
+    background-color: red;
+}
+
+.deleted:hover {
+    background-color: #e74c3c;
+    border-color: red;
+}
+
+.business-buttons i {
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+    font-size: 30px;
+    color: darkblue;
+}
+.business-buttons i:hover {
+    opacity: 0.7;
+    border-color: rgb(100, 148, 237);
+}
