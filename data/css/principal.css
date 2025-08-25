@@ -239,6 +239,8 @@ body {
     margin-bottom: 15px;
 }
 .boxes-promos img {
+    width: 200px;
+    height: 100px;
     margin-right: 10px;
     border-radius: 5px;
 }

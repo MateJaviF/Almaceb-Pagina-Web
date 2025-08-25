@@ -146,3 +146,9 @@ body {
     opacity: 0.7;
     border-color: rgb(100, 148, 237);
 }
+
+@media (max-width: 600px) {
+    .business-list {
+        flex-direction: column;
+    }
+}
