@@ -8,7 +8,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: var(background-image) blur(5px);
     display: flex;
     justify-content: center;
 }
@@ -155,11 +154,6 @@ body {
 @media (max-width: 800px) {
     #container {
         width: 500px;
-    }
-}
-@media (max-width: 500px) {
-    #container {
-        max-width: 400px;
     }
 }
 
